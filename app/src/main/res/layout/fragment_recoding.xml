@@ -3,19 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black">
+    android:background="@color/black"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/recording_textview"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_records"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Recording"
-        android:textColor="@color/cyan"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:gravity="center_horizontal">
+        android:layout_height="match_parent">
 
-    </TextView>
+    </androidx.recyclerview.widget.RecyclerView>
+
 
 
 </LinearLayout>
